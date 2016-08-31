@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ /*================= NOTE TO SELF ============== */
+
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -31,8 +35,15 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* The hello stars have no background color */
+
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-hello,
+hr.star-darkbkg,
+hr.star-bluebkg,
+hr.star-hello-light {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -41,7 +52,10 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-hello:after,
+hr.star-darkbkg:after,
+hr.star-bluebkg:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -64,6 +78,30 @@ hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
 }
+hr.star-hello {
+  border-color: #006BD6;
+}
+hr.star-hello:after {
+  background-color: white; /* NOTE: The background color should be the same color as your section. It is the "square" behind the star that gives it the illusory gap in the line spanning both sides of the star */
+  color: #006BD6;
+}
+hr.star-darkbkg {
+  border-color: white;
+}
+hr.star-darkbkg:after {
+  /* NOTE: Use inline CSS to set the background color as the color of the section behind. Do this in the index.html file, using style="background-color:grey" for example. */
+  background-color: #2C3E4F;
+  color: white
+}
+hr.star-bluebkg {
+  border-color: white;
+}
+hr.star-bluebkg:after {
+  background-color: #2980B9;
+  color: white;
+}
+
+
 .img-centered {
   margin: 0 auto;
 }
@@ -189,6 +227,7 @@ section.success {
   background: #18BC9C;
   color: white;
 }
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
