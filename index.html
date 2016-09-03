@@ -120,7 +120,16 @@
                 <div class="col-lg-4 text-center">
                     <h3>Reach Us At</h3>
                     <p><b>Phone: </b> (03) 5444 0689 </p>
-                    <p><b>Email: </b> INSERT_EMAIL_HERE </p>
+                    <p><b>Email: </b>
+                      <!-- Javascript so that bots don't scrape email -->
+                      <p id="email">email</p>
+                      <script>
+                          var user = 'admin',
+                          domain = 'breenstmedical.com.au',
+                          combine = user + "@" + domain
+                          document.getElementById('email').innerHTML = combine
+                      </script>
+                    </p> <!-- /Javascript -->
                     <p><b>Fax: </b> (03) 5444 1315 </p>
                 </div>
                 <div class="col-lg-4 text-center">
@@ -403,7 +412,7 @@
                     <div class="footer-col col-md-4">
                       <h3>Contact Us</h3>
                       <p><b>Phone: </b> (03) 5444 0689 </p>
-                      <p><b>Email: </b> INSERT_EMAIL_HERE </p>
+                      <p><b>Email: </b> admin@breenstmedical.com.au </p>
                       <p><b>Fax: </b> (03) 5444 1315 </p>
                     </div>
                     <div class="footer-col col-md-4">
