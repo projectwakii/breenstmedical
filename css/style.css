@@ -63,3 +63,12 @@ h5 {
   color: #FFFFFF;
   text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
 }
+
+.card-title {
+    /* About Us: */
+  font-family: Roboto-Regular;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 32px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+}
