@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <!-- Copy and paste into every page: 1. Header, 2. (CONTENTS), 3. Footer -->
 
-<!-- HEADER -->
-<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Breen Street Medical Clinic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Breen Street Medical Clinic</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 </head>
+
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo" style="font-family: AvenirNext-Bold;font-size: 34px;color: #000000">Breen St Medical</a>
-      <ul class="right hide-on-med-and-down" style="font-family: AvenirNext-Bold;font-size: 34px;color: #000000">
-        <!-- List all the links in the Navbar here.-->
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="appointments.html">Book An Appointment</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
+    <!-- LOGO -->
+    <nav class="white" role="navigation">
+        <a id="logo-container" href="index.html" class="brand-logo center animated fadeIn" style="font-family: AvenirNext-Bold;font-size: 34px;color: #000000; animation-delay: 0.2s">Breen St Medical</a>
+    </nav>
+    <!-- /LOGO -->
 
+    <!-- FIRST NAVBAR + MOBILE NAVBAR -->
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container right" style="font-family: AvenirNext-Bold;font-size: 34px;color: #000000">
+            <ul class="animated fadeIn" style="animation-delay: 0.4s">
+                <!-- List all the links in the Navbar here.-->
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="appointments.html">Book An Appointment</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+
+            <!-- MOBILE NAVBAR
       <ul id="nav-mobile" class="side-nav">
-        <!-- List all the links in the Navbar here.-->
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="appointments.html">Book An Appointment</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="#">Jobs</a></li>
         <li><a href="#">Contact Us</a></li>
-
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-<!-- /HEADER -->
+      <a href="#" data-activates="nav-mobile" class="button-collapse center"><i class="material-icons">menu</i></a>
+-->
+
+
+        </div>
+    </nav>
+    <!-- /FIRST NAVBAR -->
+
+    <!-- SECOND NAVBAR -->
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container right" style="font-family: AvenirNext-Bold;font-size: 34px;color: #000000">
+            <ul class="animated fadeIn" style="animation-delay: 0.4s">
+                <!-- List all the links in the Navbar here.-->
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="appointments.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /SECOND NAVBAR -->
+
+    <!-- THIRD NAVBAR -->
+    <nav class="green" role="navigation">
+        <div class="nav-wrapper container center-align animated fadeIn" style="font-family: AvenirNext-Bold;font-size: 15px;color: white;animation-delay: 0.6s">
+            <!-- List all the links in the Navbar here.-->
+            <div class="flow-text">Book an appointment by calling <a href="tel:0354440689">03 5444 0689</a>. </div>.
+        </div>
+    </nav>
+    <nav class="green" role="navigation">
+        <div class="nav-wrapper container center-align animated fadeIn" style="font-family: AvenirNext-Bold;font-size: 15px;color: white;animation-delay: 0.6s">
+            <!-- List all the links in the Navbar here.-->
+            <div class="flow-text">For after hours, call <a href="tel:137 425">137 425</a></div>.
+        </div>
+    </nav>
+    <!-- /THIRD NAVBAR -->
+
+
+
+    <!--       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
+    <!-- /HEADER -->
 
 <!-- CONTENTS -->
 <div id="index-banner" class="parallax-container">
   <div class="section no-pad-bot">
     <div class="container">
       <br><br>
-      <h5 class="header center white-text text-lighten-2">Experienced doctors providing comprehensive healthcare to Bendigo since 2008.</h1>
+      <h5 class="header center white-text text-lighten-2">We're a diverse, friendly group of healthcare professionals.</h1>
       <br><br>
 
     </div>
   </div>
-  <div class="parallax"><img src="img/best1.jpg" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="img/sparks.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 <!--   Description Section   -->
 <div class="row center">
 <div class="section center">
-  <div class="col s4 m4 l4 push-s4 push-m4 push-l4">
+  <div class="col s8 6 l4 push-s2 push-m3 push-l4">
   <h3> Join Us </h3>
   <p class="flow-text"> We are looking for General Practitioners. We encourage enthusiastic doctors, both junior and senior, to apply for a position at Breen Street Medical Clinic. Contact us below for more details.</p>
   <a href="mailto:wliu@vic.chariot.net.au" class="waves-effect waves-light btn-large blue"><i class="material-icons left">mail</i>Mail Us</a>
@@ -73,43 +113,46 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Breen St Medical Practice</h5>
+                <p class="grey-text text-lighten-4">The Breen Street Medical Practice has provided Quarry Hill and surrounding areas with comprehensive medical care since 2008. Patient health care is our numbeSaturday - Sunday:<strive to provide the best possible medical care available.</p>
 
-
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Opening hours</h5>
+                <ul>
+                    <li><a class="white-text" href="#!"><b>Monday - Friday:</b><br> 8:30am - 5:00pm</a></li>
+                    <li><a class="white-text" href="#!"><b>Saturday - Sunday:</b><br> Closed</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Contact</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Business hours: 5444 0689</a></li>
+                    <li><a class="white-text" href="#!">After hours: 137 425</a></li>
+                    <li><a class="white-text" href="#!">Fax: 5444 1315</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Location</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">64 Breen Street, Quarry Hill VIC 3550</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container">
+            Designed and coded by <b>David Liu</b> using <a class="yellow-text text-lighten-3" href="http://materializecss.com">Materialize</a>.
+        </div>
     </div>
-  </footer>
+    </footer>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
-  </body>
+</body>
+
 </html>
 <!-- /FOOTER -->
