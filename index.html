@@ -64,7 +64,7 @@
   <nav class="green" role="navigation">
     <div class="nav-wrapper container center-align animated fadeIn" style="font-family: AvenirNext-Bold;font-size: 20px;color: white;animation-delay: 0.6s">
         <!-- List all the links in the Navbar here.-->
-      <div class="flow-text">To book an appointment, call us at <a href="tel:0354440689">03 5444 0689</a></div>. 
+      <div class="flow-text">To book an appointment, call us at <a href="tel:0354440689">03 5444 0689</a></div>.
     </div>
   </nav>
   <!-- /THIRD NAVBAR -->
@@ -79,28 +79,54 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <!-- animated text--><h5 class="header center white-text text-lighten-2 animated fadeIn" style="animation-delay: 1.3s;">Experienced doctors providing comprehensive healthcare to Bendigo since 2008.</h1>
+        <!-- animated text--><h5 class="header center white-text text-lighten-2 animated zoomIn" style="animation-delay: 0.7s;animation-duration:1.4s">Experienced doctors providing comprehensive healthcare to Bendigo since 2008.</h1>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/community.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax animated fadeIn" style="animation-delay:0.7s;animation-duration:3s"><img src="img/flower.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-  <div class="row animated zoomIn" style="animation-delay: 1.6s">
+  <div class="row animated zoomIn" style="animation-delay: 1.6s; animation-duration:2s;">
       <!--   Icon Section   -->
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img src="img/IMG_7609.jpg">
-              <span class="card-title">Card Title</span>
+              <img src="img/about2.jpg">
+              <span class="card-title">About Us</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p class="flow-text">Breen St Medical Clinic is a fully accredited medical practice, emphasizing the best care for our patients. Our General Practitioners (GP) and healthcare staff provide high quality patient-centered care for the Bendigo and Quarry Hill region.  </p>
             </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+            <div class="card-action blue waves-effect wave-light" style="width:100%" onclick="openAboutUs()">
+              <a href="aboutus.html" style="color:white">Find out more about us</a>
+              <script>
+                  function openAboutUs() {
+                    location.href = "aboutus.html";
+                  }
+              </script>
+            </div>
+
+          </div>
+      </div>
+
+      <!--   Icon Section   -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="img/appointment.jpg">
+              <span class="card-title">Book An Appointment</span>
+            </div>
+            <div class="card-content">
+              <p class="flow-text">We are open from <b>Monday to Friday 8:30am - 5:00pm</b>. Outside of these hours, we also offer an <b>after-hours services</b> during weekdays between 6:00pm-8:00am, Saturdays from midday, and all day Sunday and public holidaiys: call <a href="tel:137 425">137 425</a> for this service.</p>
+            </div>
+            <div class="card-action orange waves-effect wave-light" style="width:100%" onclick="openBookNow()">
+              <a href="tel:5444 0689" style="color:white">Book now (5444 0689)</a>
+              <script>
+                  function openBookNow() {
+                    location.href = "tel:5444 0689";
+                  }
+              </script>
             </div>
           </div>
       </div>
@@ -109,32 +135,19 @@
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img src="sample-1.jpg">
-              <span class="card-title">Card Title</span>
+              <img src="img/services.jpg">
+              <span class="card-title">Our services</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p class="flow-text">Our practice has many services to offer, inluding: skin cancer checks, BP monitoring, glucose testing, antenatal/postnatal care, immunisations, and more.</p>
             </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-      </div>
-
-      <!--   Icon Section   -->
-        <div class="col s12 m6 l4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="sample-1.jpg">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
+            <div class="card-action green waves-effect wave-light" style="width:100%" onclick=openServices()>
+              <a href="services.html" style="color:white">See what we offer</a>
+              <script>
+                  function openServices() {
+                    location.href = "services.html";
+                  }
+                  </script>
             </div>
           </div>
       </div>
