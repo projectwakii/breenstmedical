@@ -42,24 +42,37 @@
     </nav>
     <!-- /HEADER -->
 
-    <!-- CONTENTS -->
-    <!-- PARALLAX -->
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h5 class="header center white-text text-lighten-2">Book an appointment.</h1>
-        <br><br>
+<!-- CONTENTS -->
 
+  <!-- PARALLAX -->
+  <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+          <div class="container">
+              <br><br>
+                <div class="row center">
+                    <h5 class="header center white-text text-lighten-2">Book an appointment.</h1>
+                </div>
+               <div class="row center"><p class="flow-text">Please phone 03 5444 0689 during business hours for an appointment. We make every effort to accommodate your preferred time and GP. If you feel you may require a long consultation, please let staff know and they will be happy to book a double appointment.</p></div>
+               <div class="row center"></div>
+               <!-- CALL BUTTON -->
+               <div class="row center">
+                 <a class="waves-effect waves-light btn-large blue z-depth-5" id="callUsButton" onClick="callUs()"><i class="material-icons left">call</i>Call Us To Make An Appointment</a>
+                 <script>
+                   function callUs() {
+                     location.href = "tel:5444 0689";
+                   }
+                 </script>
+               </div>
+              <br><br>
+          </div>
       </div>
+      <div class="parallax"><img src="img/bookingappointment.jpg" alt="Make an appointment at our medical clinic in Bendigo."></div>
     </div>
-    <div class="parallax"><img src="img/bookingappointment.jpg" alt="Make an appointment at our medical clinic in Bendigo."></div>
-  </div>
 
 <!-- MAKE AN APPOINTMENT -->
 <div class="container">
 <div class="row center">
-<p class="flow-text" style="text-align:justify">Please phone 03 5444 0689 during business hours for an appointment. We make every effort to accommodate your preferred time and GP. If you feel you may require a long consultation, please let staff know and they will be happy to book a double appointment.<br><br> We also offer a <b>after-hours service</b> for patients outside of normal business hours through the National Home Doctor Service, during weekdays between 6:00pm - 8:00am, Sturdays from midday all day Sunday, and Public holidays. <br><br><b>Home visits</b> are available for regular patients with a condition preventing them from attending the clinic. </p>
+<p class="flow-text" style="text-align:justify">We also offer a <b>after-hours service</b> for patients outside of normal business hours through the National Home Doctor Service, during weekdays between 6:00pm - 8:00am, Sturdays from midday all day Sunday, and Public holidays. <br><br><b>Home visits</b> are available for regular patients with a condition preventing them from attending the clinic. </p>
 <br>
 <div class="col s4 m4 l4 flow-text">
     <i class="large material-icons blue" style="color:white">perm_identity</i>
@@ -71,10 +84,10 @@
   <i class="large material-icons green" style="color:white">perm_phone_msg</i>
     <h4 class="flow-text"><b>Contact Us</b></h4>
     <ul>
-        <li><a class="black-text" href="#!"><i>Business hours:</i> 03 5444 0689</a></li><br>
+        <li><a class="black-text" href="#!"><i>Business hours:</i> <br>03 5444 0689</a></li><br>
         <li><a class="black-text" href="#!"><i>After hours service:</i> 137 425</a></li><br>
         <li><a class="black-text" href="#!"><i>Fax:</i> 03 5444 1315</a></li><br>
-        <li><a class="black-text" href="#!"><i>Location: </i>64 Breen Street, Quarry Hill VIC 3550</a></li>
+        <li><a class="black-text" href="#!"><i>Location:<br> </i>64 Breen Street, Quarry Hill VIC 3550</a></li>
     </ul>
 </div>
 <div class="col s4 m4 l4 flow-text">
@@ -119,7 +132,7 @@
             <div class="col l3 s12">
                 <h5 class="white-text">Contact</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Business hours: 5444 0689</a></li>
+                    <li><a class="white-text" href="#!">Business hours: <br>5444 0689</a></li>
                     <li><a class="white-text" href="#!">After hours: 137 425</a></li>
                     <li><a class="white-text" href="#!">Fax: 5444 1315</a></li>
                 </ul>
@@ -127,7 +140,7 @@
             <div class="col l3 s12">
                 <h5 class="white-text">Location</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">64 Breen Street, Quarry Hill VIC 3550</a></li>
+                    <li><a class="white-text" href="#!"><br>64 Breen Street, Quarry Hill VIC 3550</a></li>
                 </ul>
             </div>
         </div>
