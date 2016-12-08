@@ -4337,6 +4337,22 @@ small {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 280px) {
+  .flow-text {
+    font-size: 1.128rem;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .flow-text {
+    font-size: 1.152rem;
+  }
+}
+@media only screen and (min-width: 330px) {
+  .flow-text {
+    font-size: 1.176rem;
+  }
+}
+
 @media only screen and (min-width: 360px) {
   .flow-text {
     font-size: 1.2rem;
