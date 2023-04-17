@@ -7,7 +7,7 @@ Note to self about how to use:
 - The contents of this folder dist is the one that you can copy paste to GitHub. 
 
 - The folder breenst2/breenst2-ghpages/breenstmedical is the one where can paste the contentse of this dist folder into. 
-- This has a git associated with it that connects directly to projectwakii@gmail.com's GitHub page for breenstmedical. 
+- This has a git associated with it that connects directly to p\*\*\*\*wakii@gmail.com's GitHub page for breenstmedical. 
 - To actually "upload", use GitHub Desktop to commit, and then push to gh-pages branch. 
 - Most of the time, though, it'll already have a bunch of assets and stuff in there. So to make it so that GitHub desktop actually recognises that something's been changed, you probably have to delete those first, commit, then copy paste the new files into that folder, and then commit -> push. 
 
