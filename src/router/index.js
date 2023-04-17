@@ -27,7 +27,8 @@ const router = createRouter({
       name: 'jobs',
       component: () => import('../views/JobsView.vue')
     },
-  ]
+  ],
+  mode: 'hash' // Enable hash mode
 })
 
 export default router

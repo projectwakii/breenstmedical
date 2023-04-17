@@ -96,16 +96,7 @@ const people = [
     twitterUrl: '#',
     linkedinUrl: '#',
   },
-    {
-    name: 'Dr. Samina Kausar',
-    role: 'General Practitioner (GP)',
-    imageUrl:
-      '/img/drsamina.jpg',
-    bio: 'Dr Samina Kausar is a specialist obstetrician & gynaecologist, starting her private practice in Bendigo. She has keen interest in improving women’s health by providing evidence-based high quality care. Samina gained vast experience in obstetrics & gynaecology through working overseas and then in Australia, and has been awarded with specialist qualifications from Pakistan, United Kingdom and Australia. She is also formally qualified medical educationist for post graduate trainee doctors. Samina believes in personalised care for patients with effective communication and appropriate counselling. She is aiming to provide high quality management of menstrual irregularities, endometriosis, pelvic pain, fibroids, ovarian cysts, pelvic organ prolapse and abnormal cervical smears. She has expertise in a wide range of surgical procedures which include Hysterectomy, Hysteroscopy, D & C, Endometrial Ablation, Colposcopy , Laparoscopic and Adnexal surgeries etc. Samina will perform all her surgeries in St John of God Hospital Bendigo. Qualifications: MBBS, MCPS, FCPS, MRCOG, FRANZCOG, PG Cert Med Edu',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-      {
+  {
     name: 'Dr Bessie George',
     role: 'General Practitioner (GP)',
     imageUrl:
