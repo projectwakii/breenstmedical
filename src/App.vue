@@ -68,17 +68,12 @@ import JobsView from '@/views/JobsView.vue'
               </div>
               <div class="mt-6">
                 <nav class="grid gap-y-8">
-                   <RouterLink to="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home </RouterLink>
-                   <RouterLink to="/about" class="text-base font-medium text-gray-500 hover:text-gray-900"> Our Team </RouterLink>
-                   <RouterLink to="/services" class="text-base font-medium text-gray-500 hover:text-gray-900"> Services </RouterLink>
-                   <RouterLink to="/Jobs" class="text-base font-medium text-gray-500 hover:text-gray-900"> Jobs </RouterLink>
-
-                  <!-- <a v-for="item in features" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"> -->
-                  <!--  <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" /> -->
-                  <!--  <span class="ml-3 text-base font-medium text-gray-900"> -->
-                  <!--    {{ item.name }} -->
-                  <!--  </span> --> 
-                  <!-- </a> --> 
+                  <a v-for="item in features" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                    <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      {{ item.name }}
+                    </span>
+                  </a>
                 </nav>
               </div>
             </div>

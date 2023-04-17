@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # breenstmedical
 
 Note to self about how to use: 
@@ -14,3 +15,6 @@ Note to self about how to use:
 - The CNAME is important. Change this if you're changing sites, obviously. 
 - The /img folder in the breenst2-ghpages should remain not deleted and generally not changed. 
 - !! If you're changing domain name, don't forget to change the name in vue.config.js as well, or your website will bug! 
+=======
+# breenstmedical
+>>>>>>> parent of 872c39e (Deploy with removal of Samina)
